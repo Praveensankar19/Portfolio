@@ -15,7 +15,6 @@
             <li>
                 <span class="logo">MENU BAR</span>
                 <button onclick="togglesidebar()" class="side-btn">
-                    <!-- <i class="fa-solid fa-angles-right"></i> -->
                     <i class="fa-solid fa-arrow-right-from-bracket"></i>
                 </button>
             </li>
@@ -69,23 +68,26 @@
                 </a>
             </li>
         </ul>
-    </nav>
+    </nav>      
 
     <div id="container">
 
         <!------------- Main Section ---------------------------->
-
         <div class="main">
-            <img src=".\image\main.webp" alt="main-photo">
-            <h1>PRAVEEN S</h1>
-            <p>ASPIRING SOFTWARE DEVELOPER</p>
+            <div class="main-content">
+                <img src=".\image\main.webp" alt="main-photo">
+                <h1>PRAVEEN S<br>
+                <span>ASPIRING SOFTWARE DEVELOPER</span>
+                </h1>
+            </div>
+
             
             <div class="main-media">
                 <a href="https://linkedin.com/in/praveensankar19"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="https://github.com/Praveensankar19"><i class="fa-brands fa-github"></i></a>
                 <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"><i class="fa-solid fa-envelope"></i></a>
                 <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
-                <a href=""><i class="fa-brands fa-square-whatsapp"></i></a>
+                <a href="https://wa.me/qr/4IL5WBJFXBMBB1"><i class="fa-brands fa-square-whatsapp"></i></a>
             </div>
         </div>
 
@@ -96,12 +98,24 @@
         </div>
         <div class="about">
             <p>
-                Hello, I’m an Artificial Intelligence and Data Science Engineer and a passionate Full Stack Developer 
+                Hello, I am an Artificial Intelligence and Data Science Engineer and a passionate Full Stack Developer 
                 from Virudhachalam, Tamil Nadu, India. I have a strong foundation in both front-end and back-end technologies. 
-                I’m a self-motivated and proactive learner who thrives on facing challenges and applying my problem-solving 
+                A self-motivated and proactive learner who thrives on facing challenges and applying my problem-solving 
                 skills to deliver impactful solutions. My curiosity and passion for innovation drive me to explore and 
-                master modern development techniques, ensuring I remain at the forefront of the ever-evolving tech world.
+                master modern development techniques, ensuring I remain at the forefront of the ever-evolving tech world.<br>
             </p>
+
+            <div class="about-tech">
+                <p>I have strong knowledge and hands-on experience in the following domains:</p>
+                <ul>
+                    <li>Full Stack Development</li>
+                    <li>Frontend Development</li>
+                    <li>Backend Development</li>
+                    <li>AI Engineering</li>
+                    <li>UI/UX Developer</li>
+                    <li>Web Designer</li>
+                </ul>
+            </div>
         </div>
 
         <!------------- Experience Section ---------------------------->
@@ -117,17 +131,30 @@
             </p>
 
             <ul>
-                <li><i class="fa-solid fa-circle-arrow-right"></i></i>
+                <li><i class="fa-solid fa-circle-arrow-right"></i>
                 As a Full Stack Developer Intern, I gained hands-on experience in both front-end and back-end development, 
                 working on dynamic, responsive web applications. I collaborated with teams to deliver seamless user experiences 
                 and robust backend services, ensuring high-quality and efficient solutions.
                 </li>
 
-                <li><i class="fa-solid fa-circle-arrow-right"></i></i>
-                During this 6-month internship, I learned a great deal about web development, problem-solving, 
-                and collaborating in a team environment. The experience helped me deepen my understanding of various 
-                technologies and gave me the opportunity to apply my skills in real-world projects.
+                <li><i class="fa-solid fa-circle-arrow-right"></i><span> Front-End Development:</span><br>
+                    Developed responsive web applications using HTML, CSS, Bootstrap, JavaScript, TypeScript, and React.js.
+                    Created interactive UI components to enhance user experience and engagement.
+                    Ensured cross-browser compatibility and optimized performance for seamless user interactions.
                 </li>
+
+                <li><i class="fa-solid fa-circle-arrow-right"></i><span> Back-End Development & API Integration:</span><br>
+                    Designed and developed scalable backend services using Python and Django.
+                    Implemented RESTful APIs to facilitate smooth communication between front-end and back-end.
+                    Integrated and optimized MySQL databases for efficient data storage and retrieval.
+                </li>
+
+                <li><i class="fa-solid fa-circle-arrow-right"></i><span> Key Learnings & Impact:</span><br>
+                    Gained hands-on experience in full-stack web development, handling both UI and backend logic.
+                    Strengthened problem-solving skills by troubleshooting complex issues and optimizing workflows.
+                    Developed an understanding of scalable architecture and best coding practices for professional software development.                    
+                </li>
+
             </ul>
         </div>
 
@@ -139,7 +166,7 @@
 
         <div class="skill">
             <div class="front-end-header">
-                <h1>Front-End</h1>
+                <h1>FRONTEND</h1>
             </div>
             <div class="front-end">
                 <img src=".\image\html.png" alt="HTML-Icon-Image">
@@ -149,7 +176,7 @@
             </div>
 
             <div class="back-end-header">
-                <h1>Back-End</h1>
+                <h1>BACKEND</h1>
             </div>
             <div class="back-end">
                 <img src=".\image\py.jpg" alt="Python-Icon">
@@ -159,14 +186,14 @@
             </div>
 
             <div class="db-header">
-                <h1>Database</h1>
+                <h1>DATABASE</h1>
             </div>
             <div class="db">
                 <img src=".\image\mysql.svg" alt="MySQL-Icon">
             </div>
 
             <div class="ai-header">
-                <h1>AI and Advanced Technologies</h1>
+                <h1>AI TECHNOLOGIES</h1>
             </div>
             <div class="ai">
                 <img src=".\image\ai.png" alt="AI-Icon">
@@ -185,32 +212,32 @@
         <div class="projects">
             <div class="project">
                 <h2>Healthcare Appointment Booking System</h2>
-                <p>Developed a dynamic web application using React.js to streamline the process of scheduling medicalappointments</p>
-                <a href="">Know More <i class="fa-solid fa-arrows-turn-right"></i></a>
+                <p>Developed a dynamic web application using React.JS to streamline the process of scheduling medicalappointments.</p>
+                <a href="">Discover more details here...</a>
             </div>
 
             <div class="project">
                 <h2>Inventory Management System with CRUD Operations</h2>
-                <p>Developed an Inventory Management System with full CRUD operations</p>
-                <a href="">Know More <i class="fa-solid fa-arrows-turn-right"></i></a>
+                <p>Developed an Inventory Management System with full CRUD operations.</p>
+                <a href="">Discover more details here...</a>
             </div>
 
             <div class="project">
                 <h2>Employment Enrollment System using Django</h2>
-                <p>Developed an Employment Enrollment System to efficiently manage job applications and employee records</p>
-                <a href="">Know More <i class="fa-solid fa-arrows-turn-right"></i></a>
+                <p>Developed an Employment Enrollment System to efficiently manage job applications and employee records.</p>
+                <a href="">Discover more details here...</a>
             </div>
 
             <div class="project">
                 <h2>Interactive Data Exploration with NLP</h2>
-                <p>Developed an AI-powered chatbot to enable natural language data exploration for CSV files</p>
-                <a href="">Know More <i class="fa-solid fa-arrows-turn-right"></i></a>
+                <p>Developed an AI-powered chatbot to enable natural language data exploration for CSV files.</p>
+                <a href="">Discover more details here...</a>
             </div>
 
             <div class="project">
                 <h2>Calibration of Six-DOF Robotic Arm Using Simulation Data</h2>
-                <p>Conducted a study to improve the positional accuracy of a 6-DOF robotic arm's end effector</p>
-                <a href="">Know More <i class="fa-solid fa-arrows-turn-right"></i></a>
+                <p>Conducted a study to improve the positional accuracy of a 6-DOF robotic arm's end effector.</p>
+                <a href="">Discover more details here...</a>
             </div>
         </div>
 
@@ -218,6 +245,10 @@
 
         <div class="education-header" id="education">
             <h1>EDUCATION</h1>
+        </div>
+
+        <div class="swipe-indicator">
+            <span>Swipe to View →</span>
         </div>
 
         <div class="educations">
@@ -403,23 +434,28 @@
         <!-------- Contact Section ---------------------------->
 
         <div class="contact-header" id="contact">
-            <h1>CONTACT</h1>
+            <h1>CONTACT INFO</h1>
         </div>
         <div class="contact">
-            <p><span><i class="fa-solid fa-envelope"></i></span> praveensankar0802@gmail.com</p>
-            <p><span><i class="fa-solid fa-phone"></i></span> 9159318845</p>
-            <p><span><i class="fa-solid fa-location-dot"></i></span> Chennai, Tamilnadu, India</p>
+            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"><span><i class="fa-solid fa-envelope"></i></span> praveensankar0802@gmail.com</a>
+            <a><span><i class="fa-solid fa-phone"></i></span> 9159318845</a>
+            <a href="https://maps.app.goo.gl/LJjP2GrPhEyqgnY26"><span><i class="fa-solid fa-location-dot"></i></span> Chennai, Tamilnadu, India</a>
         </div>
 
         <!-------- Thanks-msg Section ---------------------------->
 
         <div class="thank-msg">
-            <h1>Thank you for taking the time to review my portfolio</h1>
-            <P>HAVE A NICE DAY ! <i class="fa-solid fa-heart"></i></p>
+            <p>I sincerely appreciate your time and consideration in reviewing my Portfolio</p>
+            <P>Wishing you a wonderful day ahead</p>
         </div>
+
+        <div class="footer">
+            <p class="footer-note">&copy; 2025 Praveen-Portfolio All Rights Reserved.</p>
+        </div>
+
     </div>
+    
     <script src="index.js"></script>
 
 </body>
-
 </html>
