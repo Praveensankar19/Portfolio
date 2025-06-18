@@ -7,92 +7,97 @@
     <title>Praveen_Portfolio</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Kavoon&family=Limelight&family=Mystery+
+    Quest&family=Pacifico&family=Plaster&family=Savate:ital,wght@0,200..900;1,200..900& family=Syne+Mono&display=swap" 
+    rel="stylesheet">
+
 </head>
 
+
 <body>
-    <nav id="sidebar">
-        <ul>
-            <li>
-                <span class="logo">MENU BAR</span>
+    <div class="layout">
+        <nav id="sidebar">
+
+            <div class="menu">
+                <h1 class="logo">MENU</h1>
                 <button onclick="togglesidebar()" class="side-btn">
                     <i class="fa-solid fa-arrow-right-from-bracket"></i>
                 </button>
-            </li>
-
-            <li class="active">
-                <a href="#container">
-                    <i class="fa-solid fa-house"></i>
-                    <span>HOME</span>
-                </a>
-            </li>
-
-            <li>
-                <a href="#about">
-                    <i class="fa-solid fa-address-card"></i>
-                    <span>ABOUT</span>
-                </a>
-            </li>
-
-            <li>
-                <a href="#skill">
-                    <i class="fa-solid fa-computer"></i>
-                    <span>SKILLS</span>
-                </a>
-            </li>
-
-            <li>
-                <a href="#project">
-                    <i class="fa-solid fa-circle-check"></i>
-                    <span>PROJECTS</span>
-                </a>
-            </li>
-
-            <li>
-                <a href="#education">
-                    <i class="fa-solid fa-graduation-cap"></i>
-                    <span>EDUCATION</span>
-                </a>
-            </li>
-
-            <li>
-                <a href="#contact">
-                    <i class="fa-solid fa-address-book"></i>
-                    <span>CONTACT</span>
-                </a>
-            </li>
-
-            <li>
-                <a href="https://drive.google.com/file/d/1Ug6bBZWABFosH6wsqLVcLMio5NTtNpWf/view?usp=drive_link">
-                    <i class="fa-solid fa-file"></i>
-                    <span>RESUME</span>
-                </a>
-            </li>
-        </ul>
-    </nav>      
-
-    <div id="container">
-
-        <!------------- Main Section ---------------------------->
-        <div class="main">
-            <div class="main-content">
-                <img src=".\image\main.webp" alt="main-photo">
-                <h1>PRAVEEN S<br>
-                <span>ASPIRING SOFTWARE DEVELOPER</span>
-                </h1>
             </div>
 
+            <ul>
+
+                <li class="active">
+                    <a href="#container">
+                        <i class="fa-solid fa-house"></i><br> <span class="label">HOME</span>   
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#about"> 
+                        <i class="fa-solid fa-address-card"></i><br><span class="label">ABOUT</span>
+                    </a>
+                </li>
+           
+                <li>
+                    <a href="#skill">
+                        <i class="fa-solid fa-computer"></i><br><span class="label">SKILLS</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#project">
+                        <i class="fa-solid fa-circle-check"></i><br><span class="label">PROJECTS</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#education">
+                        <i class="fa-solid fa-graduation-cap"></i><br><span class="label">EDUCATION</span>
+                    </a>
+                </li>
             
-            <div class="main-media">
-                <a href="https://linkedin.com/in/praveensankar19"><i class="fa-brands fa-linkedin"></i></a>
+                <li>
+                    <a href="#contact">
+                        <i class="fa-solid fa-address-book"></i><br><span class="label">CONTACT</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="./assets/Praveen_Resume.pdf">
+                        <i class="fa-solid fa-file"></i><br><span class="label">RESUME</span>
+                    </a>
+                </li>
+
+            </ul>
+        </nav>      
+
+        <div id="container">
+
+        <!------------- Header ---------------------------->
+
+        <header>
+            <div class="header-content">
+                <img src="./assets/main.webp" alt="Praveen S - Software Developer Portrait">
+                <h1>PRAVEEN S<br><span>SOFTWARE DEVELOPER</span></h1>
+            </div>
+
+            <div class="header-media">
+                <a href="https://linkedin.com/in/praveensankar19" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="https://github.com/Praveensankar19"><i class="fa-brands fa-github"></i></a>
                 <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"><i class="fa-solid fa-envelope"></i></a>
-                <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+                <a href="https://x.com/"><i class="fa-brands fa-square-x-twitter"></i></a>
                 <a href="https://wa.me/qr/4IL5WBJFXBMBB1"><i class="fa-brands fa-square-whatsapp"></i></a>
             </div>
-        </div>
 
+        </header>
+
+        
+        <main>
         <!------------- About Section ---------------------------->
-
+        
         <div class="about-header" id="about">
             <h1>ABOUT ME</h1>
         </div>
@@ -125,10 +130,10 @@
         </div>
         <div class="experience">
             <p>
-                <i class="fa-solid fa-briefcase"></i> <b>Full Stack Developer Intern</b><br>
-                <i class="fa-solid fa-building-columns"></i> <b>Besant Technologies</b><br>
-                <i class="fa-solid fa-calendar"></i> <b>July 2024- December 2024</b><br>
-            </p>
+                <i class="fa-solid fa-briefcase"></i> <b>ROLE:</b> Full Stack Developer Intern<br>
+                <i class="fa-solid fa-building-columns"></i> <b>COMPANY:</b> Besant Technologies, Chennai<br>
+                <i class="fa-solid fa-calendar"></i> <b>DURATION:</b> July 2024- December 2024<br>
+            </p><br><hr>
 
             <ul>
                 <li><i class="fa-solid fa-circle-arrow-right"></i>
@@ -165,83 +170,169 @@
         </div>
 
         <div class="skill">
-            <div class="front-end-header">
+            <div class="frontend-skill">
                 <h1>FRONTEND</h1>
-            </div>
-            <div class="front-end">
-                <img src=".\image\html.png" alt="HTML-Icon-Image">
-                <img src=".\image\css.png" alt="CSS-Icon">
-                <img src=".\image\js.jpg" alt="JavaScript-Icon">
-                <img src=".\image\react.webp" alt="React-Icon">
+                <div class="skill-item">
+                    <img src=".\assets\html.png" alt="HTML-Icon-Image">
+                    <img src=".\assets\css.png" alt="CSS-Icon">
+                    <img src=".\assets\js.jpg" alt="JavaScript-Icon">
+                    <img src=".\assets\react.webp" alt="React-Icon">
+                </div>
             </div>
 
-            <div class="back-end-header">
+            <div class="backend-skill">
                 <h1>BACKEND</h1>
-            </div>
-            <div class="back-end">
-                <img src=".\image\py.jpg" alt="Python-Icon">
-                <img src=".\image\dj.jpg" alt="Django-Icon">
-                <img src=".\image\node.jpg" alt="Nodejs-Icon">
-                
+                <div class="skill-item">
+                    <img src=".\assets\py.jpg" alt="Python-Icon">
+                    <img src=".\assets\dj.jpg" alt="Django-Icon">
+                    <img src=".\assets\node.jpg" alt="Nodejs-Icon">
+                </div>
             </div>
 
-            <div class="db-header">
+            <div class="database-skill">
                 <h1>DATABASE</h1>
-            </div>
-            <div class="db">
-                <img src=".\image\mysql.svg" alt="MySQL-Icon">
+                <div class="skill-item">
+                    <img src=".\assets\mysql.svg" alt="MySQL-Icon">
+                    <img src=".\assets\mongodb.webp" alt="MongoDB-Icon">
+                </div>
             </div>
 
-            <div class="ai-header">
+            <div class="ai-skill">
                 <h1>AI TECHNOLOGIES</h1>
+                <div class="skill-item">
+                    <img src=".\assets\ai.png" alt="AI-Icon">
+                    <img src=".\assets\ml.jpg" alt="ML-Icon">
+                    <img src=".\assets\nlp.jpg" alt="NLP-Icon">
+                    <img src=".\assets\llm.jpg" alt="LLM-Icon">
+                </div>
             </div>
-            <div class="ai">
-                <img src=".\image\ai.png" alt="AI-Icon">
-                <img src=".\image\ml.jpg" alt="Machine Learning-Icon">
-                <img src=".\image\nlp.jpg" alt="NLP-Icon">
-                <img src=".\image\llm.jpg" alt="LLM-Icon">
+
+            <div class="tools-skill">
+                <h1>TOOLS</h1>
+                <div class="skill-item">
+                    <img src=".\assets\git.jpg" alt="github-Icon">
+                    <img src=".\assets\vs.jpg" alt="vscode-Icon">
+                    <img src=".\assets\pm.png" alt="postman-Icon">
+                </div>
             </div>
+
         </div>
 
-        <!---------- Projects Section ------------------>
+        <!---------- Projects Section------------------>
 
         <div class="projects-header" id="project">
             <h1>PROJECTS</h1>
         </div>
 
+
         <div class="projects">
             <div class="project">
-                <h2>Healthcare Appointment Booking System</h2>
-                <p>Developed a dynamic web application using React.JS to streamline the process of scheduling medicalappointments.</p>
-                <a href="">Discover more details here...</a>
+                <h2>Healthcare Appointment Booking System</h2><hr>
+                <div class="project-content">
+                    <ul>
+                        <li><i class="fa-solid fa-arrow-right"></i> Built a full-stack web application that allows users to book medical appointments online through a simple and responsive interface.</li>
+                        <li><i class="fa-solid fa-arrow-right"></i> Integrated secure data management for user and appointment information, and provided a search option to find doctors by location, hospital, or disease.</li>
+                        <li><i class="fa-solid fa-arrow-right"></i> Displayed a list of hospitals in a dynamic table, using React for the frontend and Node.js, Express.js, and MongoDB for backend and database operations.</li>
+                    </ul>
+                    <div class="project-skills">
+                        <span class="skill-tag">React.js</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">Express.js</span>
+                        <span class="skill-tag">JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Praveensankar19/Healthcare-Appointment-Booking-System" target="_blank" rel="noopener">
+                            <i class="fa-brands fa-github"></i> View Code
+                        </a>
+                        <a href="" target="_blank" rel="noopener">
+                            <i class="fa-solid fa-external-link-alt"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
             </div>
 
             <div class="project">
-                <h2>Inventory Management System with CRUD Operations</h2>
-                <p>Developed an Inventory Management System with full CRUD operations.</p>
-                <a href="">Discover more details here...</a>
+                <h2>Inventory Management System</h2><hr>
+                <div class="project-content">
+                    <ul>
+                        <li><i class="fa-solid fa-arrow-right"></i> Built a web-based inventory system using HTML, CSS, Bootstrap, and JavaScript to manage products with a user-friendly interface.</li>
+                        <li><i class="fa-solid fa-arrow-right"></i> Implemented CRUD operations (Create, Read, Update, Delete) to add, view, edit, and remove inventory items dynamically.</li>
+                        <li><i class="fa-solid fa-arrow-right"></i> Used localStorage to store and persist inventory data in the browser without requiring a backend or database.</li>
+                    </ul>                    
+                    <div class="project-skills">
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">LocalStorage</span>
+                        <span class="skill-tag">CRUD</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Praveensankar19/Inventory-Management-System" target="_blank" rel="noopener">
+                            <i class="fa-brands fa-github"></i> View Code
+                        </a>
+                        <a href="" target="_blank" rel="noopener">
+                            <i class="fa-solid fa-external-link-alt"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
             </div>
 
             <div class="project">
-                <h2>Employment Enrollment System using Django</h2>
-                <p>Developed an Employment Enrollment System to efficiently manage job applications and employee records.</p>
-                <a href="">Discover more details here...</a>
+                <h2>Employment Management System</h2><hr>
+                <div class="project-content">
+                    <ul>
+                        <li><i class="fa-solid fa-arrow-right"></i> Developed a responsive full-stack web application to manage employee data using HTML, CSS, Bootstrap, JavaScript, Django, and MySQL.</li>
+                        <li><i class="fa-solid fa-arrow-right"></i> Implemented JWT-based authentication and login system to secure user access and manage sessions.</li>
+                        <li><i class="fa-solid fa-arrow-right"></i> Enabled functionalities to search, add, edit, and update employee details, with clean UI and real-time data updates.</li>
+                    </ul>                    
+                    <div class="project-skills">
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">Bootstrap</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">MySQL</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Praveensankar19/Employment-Management-System" target="_blank" rel="noopener">
+                            <i class="fa-brands fa-github"></i> View Code
+                        </a>
+                        <a href="" target="_blank" rel="noopener">
+                            <i class="fa-solid fa-external-link-alt"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
             </div>
 
             <div class="project">
-                <h2>Interactive Data Exploration with NLP</h2>
-                <p>Developed an AI-powered chatbot to enable natural language data exploration for CSV files.</p>
-                <a href="">Discover more details here...</a>
-            </div>
-
-            <div class="project">
-                <h2>Calibration of Six-DOF Robotic Arm Using Simulation Data</h2>
-                <p>Conducted a study to improve the positional accuracy of a 6-DOF robotic arm's end effector.</p>
-                <a href="">Discover more details here...</a>
+                <h2>Interactive Data Exploration with NLP</h2><hr>
+                <div class="project-content">
+                    <ul>
+                        <li><i class="fa-solid fa-arrow-right"></i> Built an AI-powered chatbot using Natural Language Processing (NLP) that allows users to upload CSV files and ask data exploration queries in natural language.</li>
+                        <li><i class="fa-solid fa-arrow-right"></i> Integrated LLM (LLaMA 3 model from Hugging Face) to interpret user queries and perform operations like filtering, grouping, and summarizing data.</li>
+                        <li><i class="fa-solid fa-arrow-right"></i> Enabled automated data visualization, generating interactive charts and graphs based on user input for better insights.</li>
+                    </ul>                    
+                    <div class="project-skills">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">NLP</span>
+                        <span class="skill-tag">Machine Learning</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">NLTK</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Praveensankar19" target="_blank" rel="noopener">
+                            <i class="fa-brands fa-github"></i> View Code
+                        </a>
+                        <a href="" target="_blank" rel="noopener">
+                            <i class="fa-solid fa-external-link-alt"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <!--------- Education Section ---------------------------->
+        <!--------- Education Section---------------------------->
 
         <div class="education-header" id="education">
             <h1>EDUCATION</h1>
@@ -323,7 +414,7 @@
             </div>
         </div>
 
-        <!-------- Achievements Section ---------------------------->
+        <!----------- Achievements Section---------------------------->
 
         <div class="achievements-header" id="achievement">
             <h1>ACHIEVEMENTS</h1>
@@ -372,35 +463,7 @@
             </ul>
         </div>
 
-        <!-------- Academic  ---------------------------->
-
-        <div class="academic-header" id="academic">
-            <h1>ACADEMIC JOURNEY</h1>
-        </div>
-    
-        <div class="academic-content">
-            <ul>
-                <li><i class="fa-solid fa-angles-right"></i>
-                    <b>Technical Expertise and Skill Development</b><br>
-                    Over the course of my B.Tech, I not only gained technical expertise but also developed valuable skills in 
-                    problem-solving, research, and innovation. Throughout my academic years, I was committed to excelling in 
-                    both theoretical and practical aspects of my field.
-                </li>
-                <li><i class="fa-solid fa-angles-right"></i>
-                    <b>Projects and Research Contributions</b><br>
-                    I undertook various projects and research, including an academic paper that was selected for 
-                    publication at a conference.
-                </li>
-                <li><i class="fa-solid fa-angles-right"></i>
-                    <b>Co-Curricular and Sports Achievements</b><br>
-                    Beyond academics, I actively participated in co-curricular activities such as inter-college symposiums, 
-                    where I earned awards for my technical presentations and innovations, as well as in sports events. 
-                    These experiences honed my communication skills and deepened my enthusiasm for technology and teamwork.
-                </li>
-            </ul>
-        </div>
-
-        <!-------- Softskills ---------------------------->
+        <!----------- Softskills Section---------------------------->
 
         <div class="softskill-header">
             <h1>SOFT SKILLS</h1>
@@ -409,13 +472,13 @@
         <div class="softskills">
             <ul>
                 <li>Effective Communication</li>
-                <li>Analytical & Innovative Thinking</li>
-                <li>Solution-Oriented Mindset</li>
+                <li>Innovative Thinking</li>
+                <li>Teamwork</li>
                 <li>Flexibility</li>
             </ul>
         </div>
 
-        <!-------- Hobbies ---------------------------->
+        <!------------ Hobbies Section---------------------------->
 
         <div class="hobbie-header">
             <h1>HOBBIES</h1>
@@ -431,31 +494,49 @@
         </div>
 
 
-        <!-------- Contact Section ---------------------------->
+        <!------------ Contact Section---------------------------->
 
         <div class="contact-header" id="contact">
             <h1>CONTACT INFO</h1>
         </div>
+
         <div class="contact">
-            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"><span><i class="fa-solid fa-envelope"></i></span> praveensankar0802@gmail.com</a>
-            <a><span><i class="fa-solid fa-phone"></i></span> 9159318845</a>
-            <a href="https://maps.app.goo.gl/LJjP2GrPhEyqgnY26"><span><i class="fa-solid fa-location-dot"></i></span> Chennai, Tamilnadu, India</a>
+            <div class="contact-item">
+                <img src=".\assets\email3.jpg">
+                <h1>praveensankar0802@gmail.com</h1>
+            </div>
+
+            <div class="contact-item">
+                <h1>+91 9159318845</h1>
+                <img src=".\assets\call.jpg">
+            </div>
+
+            <div class="contact-item">
+                <img src=".\assets\location.jpg">
+                <h1>Chennai, India</h1>
+            </div>
+
+            <div class="contact-item">
+                <h1>
+                    <a href=".\assets\Praveen_Resume.pdf">Download Resume</a>
+                </h1>
+                <img src=".\assets\resume.jpg">
+                
+            </div>
         </div>
 
-        <!-------- Thanks-msg Section ---------------------------->
+        </main>
 
-        <div class="thank-msg">
-            <p>I sincerely appreciate your time and consideration in reviewing my Portfolio</p>
-            <P>Wishing you a wonderful day ahead</p>
+        <!------------ Footer ---------------------------->
+        <footer>
+            <p>&copy; 2025 Praveen, All rights reserved.</p>
+        </footer>
+
         </div>
-
-        <div class="footer">
-            <p class="footer-note">&copy; 2025 Praveen-Portfolio All Rights Reserved.</p>
-        </div>
-
     </div>
-    
+
     <script src="index.js"></script>
 
 </body>
 </html>
+
